@@ -1,0 +1,25 @@
+Start
+
+Input Total
+
+Input Harga								                    Write Nama_pembeli
+
+Input Jumlah_Pesanan							            Write Kode_Paket
+
+If Kode_Paket "1"							                Write Jumlah_Pesanan
+
+       Output "Paket Super Wow 1 = Rp 15.000"				Write Harga_Pesanan
+
+If Kode_Paket "2"							                Write Uang_Pembayaran
+
+       Output "Paket Super Wow 2 = Rp 27.500"				Write Kembalian
+
+If Kode_Paket "3"							                End
+
+       Output "Paket Super Wow 3 = Rp 40.000"
+
+Else									                    Write Total
+
+Write "Tidak ada"							                Read Uang_Pembayaran
+
+End									                        Write Uang_Pembayaran dan Total
